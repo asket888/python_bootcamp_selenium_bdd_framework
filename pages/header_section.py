@@ -7,7 +7,7 @@ from pages.base_page import BasePage
 class HeaderSection(BasePage):
 
     __HEADER_LOGIN_BUTTON = (By.XPATH, "//a[@class='login']")
-    __HEADER_LOGOUT_BUTTON = (By.XPATH, "//a[@class='logout_123']")
+    __HEADER_LOGOUT_BUTTON = (By.XPATH, "//a[@class='logout']")
     __HEADER_NICKNAME_TEXT = (By.XPATH, "//a[@title='View my customer account']")
 
     def click_login_button(self):
