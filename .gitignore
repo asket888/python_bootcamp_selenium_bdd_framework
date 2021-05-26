@@ -9,7 +9,6 @@ __init__.py
 
 
 # Reporting and logs #
-artifacts/*
 *.output
 
 
